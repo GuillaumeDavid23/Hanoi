@@ -1,9 +1,25 @@
-html,body{
-    margin: 0;
+html,
+body {
     padding: 0;
-    font-style: ;
+    margin: 0;
+    background-color: #D3D0CB;
 }
 
+
 header{
-    position: fixed;
+    width: 100%;
+}
+
+h2 {
+    font-size: 36px;
+}
+
+/* CONTAINER PRINCIPAL */
+
+.container {
+    display: flex;
+}
+
+.header {
+    
 }
