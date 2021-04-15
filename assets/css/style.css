@@ -1,0 +1,19 @@
+@font-face {
+    font-family: "Cormorant" ;
+    src: url("../font/Cormorant.ttf");
+}
+
+@font-face {
+    font-family: "Yoruka" ;
+    src: url("../font/Yoruka.otf");
+}
+
+html,body{
+    margin: 0;
+    padding: 0;
+    font-family: "Cormorant";
+}
+
+header{
+    position: fixed;
+}
