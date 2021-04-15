@@ -13,7 +13,7 @@ body {
     margin: 0;
     padding: 0;
     height: 100vh;
-    width: 100vw;
+    width: 100%;
     background-color: #D3D0CB;
     font-family: "Cormorant";
 }
@@ -22,7 +22,6 @@ body {
 
 #homeContainer {
     height: 100vh;
-    width: 100vw;
 }
 
 h2 {
@@ -45,7 +44,7 @@ h1 {
     display: flex;
     justify-content: center;
     align-items: center;
-    height: 70px;
+    height: 10%;
     width: 100%;
     background: #e2c044;
 }
@@ -69,7 +68,6 @@ h1 {
 /* DEBUT a propos */
 #aboutContainer {
     height: 100vh;
-    width: 100vw;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -211,7 +209,6 @@ h1 {
 /* Conteneur principal */
 #contactContainer {
     height: 100vh;
-    width: 100vw;
 }
 
 .logoSocial {
@@ -240,7 +237,6 @@ h1 {
     height: 80%;
     display: flex;
     justify-content: center;
-    margin: 50px;
 }
 
 .field {
@@ -283,5 +279,4 @@ form {
 
 #accessContainer {
     height: 100vh;
-    width: 100vw;
 }
