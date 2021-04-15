@@ -200,6 +200,7 @@ h1 {
     margin-bottom: 10px;
 }
 
+
 .pictures3 {
     width: 27%;
     background-image: url("../img/curryasiat.jpg");
@@ -314,10 +315,6 @@ h1 {
     height: 100vh;
 }
 
-.logoSocial {
-    width: 50px;
-}
-
 .contactTitle {
     display: flex;
     align-items: center;
@@ -339,50 +336,176 @@ h1 {
     width: 100%;
     height: 80%;
     display: flex;
-    justify-content: center;
+    justify-content: space-evenly;
+    align-items: center;
+    margin-top: 50px;
 }
-
-.field {
-    width: 450px;
-    height: 80%;
+.field{
     font-size: 20px;
     display: flex;
     flex-direction: column;
     justify-content: center;
     margin: 0;
     padding: 20px;
-    border: 2px solid black;
+    border: 2px solid #1E2019;
+    border-radius: 10px;
 }
-
-form {
+form{
+    color: #1E2019;
     font-size: 20px;
+    width: 800px;
     display: flex;
     flex-direction: column;
     justify-content: center;
 }
 
-#message {
-    width: 400px;
-    height: 300px;
+form label{
+    color: #1E2019;
+    font-size: 25px;
+    font-weight: 600;
+    margin-top: 5px;
+}
+
+#message{
+    width: 100%;
+    height: 150px;
     resize: none;
+    font-size: 20px;
+}
+#mail{
+    width: 50%;
+    height: 30px;
+    font-size: 20px;
+}
+#name{
+    width: 50%;
+    height: 30px;
+    font-size: 20px;
 }
 
-#mail {
+.contactButton{
+    margin-top: 10px;
+    height: 50px;
+    width: 100%;
+    align-self: center;
+    background-color: #E2C044;
+    font-family: "Cormorant";
+    font-weight: 800;
+    font-size: 22px;
+    border-radius: 10px;
+    
+}
+
+.contactButton:hover{
+    background-color: #C29F1E;
+}
+
+.social{
+    border: 2px solid #1E2019;
     width: 300px;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    border-radius: 10px;
 }
 
-#name {
-    width: 300px;
+.logoSocial{
+    width: 70px;
+    margin: 20px;
 }
 
-.social {
-    border: 2px solid black;
-}
 /* FIN PARTIE CONTACT */
 
-#accessContainer {
+
+/* DEBUT PARTIE ACCES */
+#accessContainer{
     height: 100vh;
+    margin-top: 100px;
 }
 
+.accessTitle{
+    
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family: "Yoruka";
+    font-size: 25px;
+    width: 400px;
+    height: 100px;
+    background-color: #E2C044;
+}
 
+.accessCenter{
+    height: 20%;
+    display: flex;
+    justify-content: center;
+}
 
+.accessContenu{
+    width: 100%;
+    height: 80%;
+    display: flex;
+    justify-content: center;
+    margin-top: 50px;
+}
+
+.up{
+    display: flex;
+}
+.up ul{
+    word-spacing: 5px;
+    line-height: 30px;
+}
+.up h3{
+    text-align: center;
+}
+
+.agenda{
+    display: flex;
+}
+.listTime{
+    display: flex;
+    flex-direction: column;
+    height: 50%;
+}
+.internalTime{
+    display: flex;
+}
+
+.dayTime{
+    padding-right: 40px;
+}
+.nightTime{
+    border-left: 3px solid black;
+    padding-left: 20px;
+}
+.time{
+    font-size: 22px;
+    list-style: none;
+}
+.timeTitle{
+    font-size: 25px;
+}
+.adress{
+    margin-left: 50px;
+    text-align: center;
+}
+
+.adress h3{
+    font-size: 25px;
+}
+
+.adress p{
+    font-size: 25px;
+}
+
+.adress button{
+    border-radius: 10px;
+    height: 40px;
+    width: 100px;
+    background-color: #E2C044;
+}
+
+.adress button:hover{
+    background-color: #C29F1E;
+}
