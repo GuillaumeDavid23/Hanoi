@@ -119,9 +119,75 @@ form label{
 
 /* FIN PARTIE CONTACT */
 
+
+/* DEBUT PARTIE ACCES */
 #accessContainer{
     height: 100vh;
+    margin-top: 100px;
 }
 
+.accessTitle{
+    
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family: "Yoruka";
+    font-size: 25px;
+    width: 400px;
+    height: 100px;
+    background-color: #E2C044;
+}
 
+.accessCenter{
+    height: 20%;
+    display: flex;
+    justify-content: center;
+}
+
+.accessContenu{
+    width: 100%;
+    height: 80%;
+    display: flex;
+    justify-content: center;
+    margin-top: 50px;
+}
+
+.up{
+    display: flex;
+}
+.up ul{
+    word-spacing: 5px;
+    line-height: 30px;
+}
+.up h3{
+    text-align: center;
+}
+
+.agenda{
+    display: flex;
+}
+.listTime{
+    display: flex;
+    height: 50%;
+    
+}
+
+.dayTime{
+    padding-right: 40px;
+}
+.nightTime{
+    border-left: 3px solid black;
+    padding-left: 20px;
+}
+.time{
+    font-size: 22px;
+    list-style: none;
+}
+.timeTitle{
+    font-size: 25px;
+}
+
+.address h3{
+    font-size: 25px;
+}
 
