@@ -1,0 +1,133 @@
+@font-face {
+    font-family: "Cormorant" ;
+    src: url("../font/Cormorant.ttf");
+}
+
+@font-face {
+    font-family: "Yoruka" ;
+    src: url("../font/Yoruka.otf");
+}
+
+html,body{
+    margin: 0;
+    padding: 0;
+    height: 100vh;
+    font-family: "Cormorant";
+    background-color: #D3D0CB;
+}
+
+header{
+    position: fixed;
+}
+
+#homeContainer{
+    height: 100vh;
+    width: 100vw;
+}
+
+#aboutContainer{
+    height: 100vh;
+    width: 100vw;
+}
+
+#foodContainer{
+    height: 100vh;
+    width: 100vw;
+}
+
+#contactContainer{
+    height: 100vh;
+    width: 100vw;
+}
+
+#accessContainer{
+    height: 100vh;
+    width: 100vw;
+}
+
+/* foodcontainer */
+
+#foodContainer h2 {
+    text-align: center;
+    height: 100px;
+    width: 400px;
+}
+
+/* bloc 1 */
+.blocpictures1 {
+    background-color: green;
+    display: flex;
+    flex-direction: row;
+    height: 200px;
+}
+
+.pictures1 {
+    border: 1px solid black;
+    width: 33%;
+}
+
+.pictures2 {
+    border: 1px solid black;
+    width: 33%;
+}
+
+.pictures3 {
+    border: 1px solid black;
+    width: 33%;
+}
+
+/* bloc 2 */
+.blocpictures2 {
+    background-color: blue;
+    display: flex;
+    height: 200px;
+}
+
+.pictures4 {
+    border: 1px solid black;
+    width: 33%;
+}
+
+.pictures5 {
+    border: 1px solid black;
+    width: 33%;
+}
+
+.pictures6 {
+    border: 1px solid black;
+    width: 33%;
+}
+
+/* bloc 3 */
+.blocpictures3 {
+    background-color: yellow;
+    display: flex;
+    height: 200px;
+}
+
+.pictures7 {
+    border: 1px solid black;
+    width: 33%;
+}
+
+.pictures8 {
+    border: 1px solid black;
+    width: 33%;
+}
+
+.pictures9 {
+    border: 1px solid black;
+    width: 33%;
+}
+
+/* boutton */
+
+.menubutton {
+    text-align: center;
+    justify-content: center;
+}
+
+
+
+
+
