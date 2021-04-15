@@ -1,14 +1,15 @@
 @font-face {
-    font-family: "Cormorant" ;
+    font-family: "Cormorant";
     src: url("../font/Cormorant.ttf");
 }
 
 @font-face {
-    font-family: "Yoruka" ;
+    font-family: "Yoruka";
     src: url("../font/Yoruka.otf");
 }
 
-html,body{
+html,
+body {
     margin: 0;
     padding: 0;
     height: 100vh;
@@ -17,15 +18,15 @@ html,body{
     background-color: #D3D0CB;
 }
 
-#homeContainer{
+#homeContainer {
     height: 100vh;
 }
 
-#aboutContainer{
+#aboutContainer {
     height: 100vh;
 }
 
-#foodContainer{
+#foodContainer {
     height: 100vh;
 }
 
@@ -38,35 +39,88 @@ h1 {
     font-size: 42px;
 }
 
-/* CONTAINER PRINCIPAL */
 
-#homeContainer {
-    display: flex;
-    flex-direction: column;
-    width: 100%;
-}
+/* BLOCK1 */
+
 
 .block1 {
     display: flex;
-    justify-content: center;
-    align-items: center;
-    height: 10%;
+    position: fixed;
+    height: 70px;
     width: 100%;
-    background : #e2c044;
+    background: RGB(226, 192, 68, 0.4);
 }
 
 .navbar {
     display: flex;
-    justify-content: center;
-    align-items: center;
+    justify-content: space-between;
     width: 100%;
+    height: 70px; 
+    font-size: 24px;
+    color:black; 
 }
+
+.acceuil {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 70px;
+    width: 20%;
+    justify-content:center;
+    align-items: center;
+}
+
+.menu {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 70px;
+    width: 20%;
+    justify-content:center;
+    align-items: center;
+}
+
+.logo {
+    display: flex;
+    height: 120px;
+    width: 20%;
+    justify-content:center;
+    align-items: center;
+}
+
+.imagelogo {
+    height: 120px;
+    width: 100%;
+
+}
+
+.access {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 70px;
+    width: 20%;
+    justify-content:center;
+    align-items: center;
+}
+
+.contact {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 70px;
+    width: 20%;
+    justify-content:center;
+    align-items: center;
+}
+
+/* BLOCK2 */
+
 
 .block2 {
     display: flex;
     align-items: center;
     justify-content: center;
     height: 90%;
-    background:url(../img/photo-restaurant.jpeg);
+    background: url(../img/photo-restaurant.jpeg);
 }
-
