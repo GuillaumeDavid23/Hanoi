@@ -1,8 +1,34 @@
-html,
-body {
-    padding: 0;
+@font-face {
+    font-family: "Cormorant" ;
+    src: url("../font/Cormorant.ttf");
+}
+
+@font-face {
+    font-family: "Yoruka" ;
+    src: url("../font/Yoruka.otf");
+}
+
+html,body{
     margin: 0;
+    padding: 0;
+    height: 100vh;
+    font-family: "Cormorant";
     background-color: #D3D0CB;
+}
+
+#homeContainer{
+    height: 100vh;
+    width: 100vw;
+}
+
+#aboutContainer{
+    height: 100vh;
+    width: 100vw;
+}
+
+#foodContainer{
+    height: 100vh;
+    width: 100vw;
 }
 
 h2 {
