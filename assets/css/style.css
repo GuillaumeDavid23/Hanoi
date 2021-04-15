@@ -22,17 +22,17 @@ header{
 
 #homeContainer{
     height: 100vh;
-    width: 100vw;
+    
 }
 
 #aboutContainer{
     height: 100vh;
-    width: 100vw;
+    
 }
 
 #foodContainer{
     height: 100vh;
-    width: 100vw;
+    
 }
 
 /* DEBUT PARTIE CONTACT */
@@ -40,7 +40,7 @@ header{
 /* Conteneur principal */
 #contactContainer{
     height: 100vh;
-    width: 100vw;
+    
 }
 
 
@@ -70,7 +70,6 @@ header{
     height: 80%;
     display: flex;
     justify-content: center;
-    margin: 50px;
 }
 .field{
     width: 450px;
