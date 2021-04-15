@@ -11,9 +11,36 @@
 html,body{
     margin: 0;
     padding: 0;
+    height: 100vh;
+    width: 100vw;
     font-family: "Cormorant";
 }
 
 header{
     position: fixed;
+}
+
+#homeContainer{
+    height: 100vh;
+    width: 100vw;
+}
+
+#aboutContainer{
+    height: 100vh;
+    width: 100vw;
+}
+
+#foodContainer{
+    height: 100vh;
+    width: 100vw;
+}
+
+#contactContainer{
+    height: 100vh;
+    width: 100vw;
+}
+
+#accessContainer{
+    height: 100vh;
+    width: 100vw;
 }
