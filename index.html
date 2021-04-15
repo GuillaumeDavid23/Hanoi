@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="fr">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -7,6 +8,7 @@
     <link rel="stylesheet" href="assets/css/style.css">
     <title>Hanoï : Restaurant traditionnel asiatique Amiens</title>
 </head>
+
 <body>
     <header>
         <nav>
@@ -14,12 +16,10 @@
             <a href="menu.html" title="menu"></a>
             <a href="acces.html" title="acces">Acces</a>
         </nav>
-        
-        <h1>Restaurant Asiatique Hanoi</h1>
     </header>
 
     <section id="homeContainer">
-        
+
     </section>
 
     <section id="aboutContainer">
@@ -31,14 +31,38 @@
     </section>
 
     <section id="contactContainer">
-        <fieldset class="form">
-            <form action="mail.php" method="post">
+        <div class="centerContact">
+            <div class="contactTitle">
+                <h2>Contact</h2>
+            </div>
+        </div>
 
-            </form>
-        </fieldset>
-        <div class="social">
-            <a href=""><img src="assets/img/fb.png" alt="Facebook"></a>
-            <a href=""><img src="assets/img/insta.png" alt="Instagramme"></a>
+        <div class="contactContenu">
+            <div class="field">
+                <h2>Envoyez-nous un message :</h2>
+                <form action="mail.php" method="post">
+
+                    <label for="name">Votre nom</label>
+                    <input type="text" name="name" id="name">
+
+
+
+                    <label for="mail">Votre mail</label>
+                    <input type="email" name="mail" id="mail">
+
+
+
+                    <label for="message">Votre message</label>
+                    <textarea name="message" id="message"></textarea>
+
+                </form>
+            </div>
+            
+            <div class="social">
+                <h2>Nos réseaux :</h2>
+                <a href=""><img src="assets/img/fb.png" alt="Facebook" class="logoSocial"></a>
+                <a href=""><img src="assets/img/insta.png" alt="Instagram" class="logoSocial"></a>
+            </div>
         </div>
     </section>
 
@@ -46,4 +70,5 @@
 
     </section>
 </body>
+
 </html>
