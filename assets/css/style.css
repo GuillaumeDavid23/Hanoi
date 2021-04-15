@@ -136,92 +136,182 @@ h1 {
 
 /* DEBUT Présentation des plats */
 #foodContainer {
-    background-color: brown;
     height: 100vh;
+    width: 100vw;
+}
+
+#contactContainer {
+    height: 100vh;
+    width: 100vw;
+}
+
+#accessContainer {
+    height: 100vh;
+    width: 100vw;
+}
+
+/* foodcontainer */
+
+.centerTitle {
+    display: flex;
+    justify-content: center;
+}
+
+.foodTitle {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100px;
+    width: 400px;
+    background-color: #E2C044;
 }
 
 #foodContainer h2 {
+    font-family: "Yoruka";
+    font-size: 35px;
     text-align: center;
 }
 
 /* bloc 1 */
 .blocpictures1 {
-    background-color: green;
     display: flex;
     flex-direction: row;
-    height: 200px;
+    height: 260px;
 }
 
 .pictures1 {
-    border: 1px solid black;
     width: 33%;
+    background-image: url("../img/makioignon.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center bottom;
+    margin-right: 10px;
+    margin-bottom: 10px;
+    margin-left: 40px;
 }
 
 .pictures2 {
-    border: 1px solid black;
-    width: 33%;
+    width: 40%;
+    background-image: url("../img/boulecoco.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    margin-right: 10px;
+    margin-bottom: 10px;
 }
 
 .pictures3 {
-    border: 1px solid black;
-    width: 33%;
+    width: 27%;
+    background-image: url("../img/curryasiat.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: ;
+    margin-bottom: 10px;
+    margin-right: 40px;
 }
 
 /* bloc 2 */
 .blocpictures2 {
-    background-color: blue;
     display: flex;
-    height: 200px;
+    height: 260px;
 }
 
 .pictures4 {
-    border: 1px solid black;
-    width: 33%;
+    width: 20%;
+    background-image: url("../img/rizsauter.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    margin-right: 10px;
+    margin-bottom: 10px;
+    margin-left: 40px;
 }
 
 .pictures5 {
-    border: 1px solid black;
-    width: 33%;
+    width: 36%;
+    background-image: url("../img/california.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    margin-right: 10px;
+    margin-bottom: 10px;
 }
 
 .pictures6 {
-    border: 1px solid black;
-    width: 33%;
+    width: 44%;
+    background-image: url("../img/boeuflegume.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: left;
+    margin-bottom: 10px;
+    margin-right: 40px;
 }
 
 /* bloc 3 */
 .blocpictures3 {
-    background-color: yellow;
     display: flex;
-    height: 200px;
+    height: 260px;
 }
 
 .pictures7 {
-    border: 1px solid black;
-    width: 33%;
+    width: 30%;
+    background-image: url("../img/rizthai.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    margin-right: 10px;
+    margin-bottom: 10px;
+    margin-left: 40px;
 }
 
 .pictures8 {
-    border: 1px solid black;
-    width: 33%;
+    width: 45%;
+    background-image: url("../img/canardsauter.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    margin-right: 10px;
+    margin-bottom: 10px;
 }
 
 .pictures9 {
-    border: 1px solid black;
-    width: 33%;
+    width: 25%;
+    background-image: url("../img/nouillesaute.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: right 50%;
+    margin-bottom: 10px;
+    margin-right: 40px;
 }
 
 /* boutton */
-
-.menubutton {
+.boutton {
     text-align: center;
-    justify-content: center;
-}
+    height: 50px;
+  }
+  
+  .menuboutton {
+   height: 50px;
+   width: 20%;
+   border-radius: 3px;
+   background-color: #E2C044;
+   font-family: "Cormorant";
+   font-size: 35px;
+   margin-top: 10px;
+  }
+  
+  .menuboutton:hover {
+      background-color: #C29F1E;
+  }
+  
+  /* fin food container */
+
 /* FIN présentation des plats */
 
 /* DEBUT PARTIE CONTACT */
 /* Conteneur principal */
 #contactContainer {
+    margin-top: 50px;
     height: 100vh;
 }
 
@@ -294,3 +384,6 @@ form {
 #accessContainer {
     height: 100vh;
 }
+
+
+
