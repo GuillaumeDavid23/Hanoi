@@ -1,4 +1,3 @@
-
 @font-face {
     font-family: "Cormorant" ;
     src: url("../font/Cormorant.ttf");
@@ -15,10 +14,6 @@ html,body{
     height: 100vh;
     width: 100vw;
     font-family: "Cormorant";
-}
-
-header{
-    position: fixed;
 }
 
 #homeContainer{
@@ -47,11 +42,6 @@ header{
 }
 
 /* foodcontainer */
-
-body {
-    height: 100vh;
-}
-
 #foodContainer {
     background-color: brown;
     height: 100vh;
@@ -135,4 +125,44 @@ body {
     justify-content: center;
 }
 
+h2 {
+    font-size: 36px;
+}
 
+
+h1 {
+    text-align: center;
+    font-size: 42px;
+}
+
+/* CONTAINER PRINCIPAL */
+
+.container {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+}
+
+.block1 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 70px;
+    width: 100%;
+    background : #e2c044;
+}
+
+.navbar {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+}
+
+.block2 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 800px;
+    background:url(../img/photo-restaurant.jpeg);
+}
