@@ -48,17 +48,25 @@ header{
 
 /* foodcontainer */
 
-#foodContainer h2 {
-    text-align: center;
+.centerTitle {
+    display: flex;
+    justify-content: center;
+}
+
+.foodTitle {
+    display: flex;
+    justify-content: center;
+    align-items: center;
     height: 100px;
     width: 400px;
+    background-color: #E2C044;
 }
 
-#foodContainer {
-    background-color: brown;
-    height: 100vh;
+#foodContainer h2 {
+    font-family: "Yoruka";
+    font-size: 35px;
+    text-align: center;
 }
-
 
 /* bloc 1 */
 .blocpictures1 {
@@ -128,6 +136,9 @@ header{
 }
 
 /* boutton */
+.button {
+
+}
 
 .menubutton {
     text-align: center;
