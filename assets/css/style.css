@@ -12,29 +12,26 @@ html,body{
     margin: 0;
     padding: 0;
     height: 100vh;
+    width: 100%;
     font-family: "Cormorant";
     background-color: #D3D0CB;
 }
 
 #homeContainer{
     height: 100vh;
-    width: 100vw;
 }
 
 #aboutContainer{
     height: 100vh;
-    width: 100vw;
 }
 
 #foodContainer{
     height: 100vh;
-    width: 100vw;
 }
 
 h2 {
     font-size: 36px;
 }
-
 
 h1 {
     text-align: center;
@@ -43,7 +40,7 @@ h1 {
 
 /* CONTAINER PRINCIPAL */
 
-.container {
+#homeContainer {
     display: flex;
     flex-direction: column;
     width: 100%;
@@ -53,7 +50,7 @@ h1 {
     display: flex;
     justify-content: center;
     align-items: center;
-    height: 70px;
+    height: 10%;
     width: 100%;
     background : #e2c044;
 }
@@ -69,7 +66,7 @@ h1 {
     display: flex;
     align-items: center;
     justify-content: center;
-    height: 800px;
+    height: 90%;
     background:url(../img/photo-restaurant.jpeg);
 }
 
