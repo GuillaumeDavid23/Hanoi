@@ -45,19 +45,25 @@ a {
 /* MOUSE OVER CLICK */
 
 
+a {
+    text-decoration: none;
+    color: black;
+}
 
-
+a:hover {
+    background-color:RGB(255, 224, 102);
+    opacity: 2;
+}
 
 
 /* BLOCK1 */
-
 
 .block1 {
     display: flex;
     position: fixed;
     height: 70px;
     width: 100%;
-    background: RGB(226, 192, 68, 0.8);
+    background: RGB(226, 192, 68, 0.4);
 }
 
 /* BLOCK2 */
@@ -67,8 +73,8 @@ a {
     align-items: center;
     justify-content: center;
     height: 90%;
-    background: url(../img/Love-that-design-Mama-Pho-Restaurant-11.webp);
-    background-size: 100%;
+    background: url(../img/image_background.webp);
+    background-size: cover;
     background-position: 50%;
 }
 
@@ -98,13 +104,17 @@ a {
 }
 
 .logo {
+    display: flex;
     height: 120px;
     width: 20%;
-    text-align: center;
+    justify-content:center;
+    align-items: center;
 }
 
 .imagelogo {
-    width: 32%;
+    height: 120px;
+    width: 40%;
+
 }
 
 .contact {
