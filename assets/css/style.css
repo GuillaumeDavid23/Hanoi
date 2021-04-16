@@ -664,18 +664,27 @@ form label {
     height: 150px;
     resize: none;
     font-size: 20px;
+    background-color: #1E2019;
+    color: #D3D0CB;
+    border-radius: 10px;
 }
 
 #mail {
     width: 50%;
     height: 30px;
     font-size: 20px;
+    background-color: #1E2019;
+    color: #D3D0CB;
+    border-radius: 10px;
 }
 
 #name {
     width: 50%;
     height: 30px;
     font-size: 20px;
+    background-color: #1E2019;
+    color: #D3D0CB;
+    border-radius: 10px;
 }
 
 .contactButton {
