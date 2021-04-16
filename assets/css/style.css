@@ -36,7 +36,10 @@ h2 {
 
 h1 {
     text-align: center;
-    font-size: 42px;
+    font-size: 130px;
+    color: #E2C044;
+    text-shadow: 2px 0 0 black, 2px 2px 0 black, 0 2px 0 black, -2px 2px 0 black, -2px 0 0 black, -2px -2px 0 black, 0 -2px 0 black, 2px -2px 0 black;
+    
 }
 
 a {
@@ -48,9 +51,7 @@ a {
 /* MOUSE OVER CLICK */
 
 
-a:hover {
-    color: red;
-  }
+
 
 
 
@@ -62,7 +63,7 @@ a:hover {
     position: fixed;
     height: 70px;
     width: 100%;
-    background: RGB(226, 192, 68, 0.4);
+    background: RGB(226, 192, 68, 0.8);
 }
 
 .navbar {
@@ -91,17 +92,13 @@ a:hover {
 }
 
 .logo {
-    display: flex;
     height: 120px;
     width: 20%;
-    justify-content:center;
-    align-items: center;
-}
+    text-align: center;
+}   
 
 .imagelogo {
-    height: 120px;
-    width: 100%;
-
+    width: 32%;
 }
 
 .contact {
@@ -129,6 +126,6 @@ a:hover {
     justify-content: center;
     height: 90%;
     background: url(../img/Love-that-design-Mama-Pho-Restaurant-11.webp);
-    background-size: cover;
+    background-size: 100%;
     background-position: 50%;
 }
