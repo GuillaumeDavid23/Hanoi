@@ -88,13 +88,9 @@ header{
 }
 .soldpict{
     display: flex;
-    border-style: solid;
-    border-width: medium;
 }
-.logoreduc{
-    background-color:#E2C044 ;
-    width: 15%;
-    
+.logoreduc2{
+    width: 5%;
 }
 #foodContainer{
     height: 100vh;
