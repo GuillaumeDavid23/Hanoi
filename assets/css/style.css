@@ -73,6 +73,7 @@ header {
     display: flex;
     flex-direction: row;
     height: 260px;
+    margin-top: 20px;
 }
 
 .pictures1 {
@@ -342,11 +343,12 @@ header {
 .menuboutton {
  height: 50px;
  width: 20%;
- border-radius: 3px;
+ border-radius: 20px;
  background-color: #E2C044;
  font-family: "Cormorant";
  font-size: 35px;
  margin-top: 10px;
+ font-weight: bolder;
 }
 
 .menuboutton:hover {
