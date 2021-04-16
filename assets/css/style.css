@@ -250,6 +250,23 @@ a {
     margin-left: 40px;
 }
 
+.makioignon {
+    width: 100%;
+    height: 100%;
+    background-color: black;
+    opacity: 0;
+    color: white;
+    font-family: "Cormorant";
+    font-size: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.makioignon:hover {
+    opacity: .7;
+}
+
 .pictures2 {
     width: 40%;
     background-image: url("../img/boulecoco.jpg");
@@ -260,6 +277,22 @@ a {
     margin-bottom: 10px;
 }
 
+.boulecoco {
+    width: 100%;
+    height: 100%;
+    background-color: black;
+    opacity: 0;
+    color: white;
+    font-family: "Cormorant";
+    font-size: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.boulecoco:hover {
+    opacity: .7;
+}
 
 .pictures3 {
     width: 27%;
@@ -268,6 +301,23 @@ a {
     background-size: cover;
     margin-bottom: 10px;
     margin-right: 40px;
+}
+
+.curryasian {
+    width: 100%;
+    height: 100%;
+    background-color: black;
+    opacity: 0;
+    color: white;
+    font-family: "Cormorant";
+    font-size: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.curryasian:hover {
+    opacity: .7;
 }
 
 /* bloc 2 */
@@ -287,6 +337,23 @@ a {
     margin-left: 40px;
 }
 
+.rice {
+    width: 100%;
+    height: 100%;
+    background-color: black;
+    opacity: 0;
+    color: white;
+    font-family: "Cormorant";
+    font-size: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.rice:hover {
+    opacity: .7;
+}
+
 .pictures5 {
     width: 36%;
     background-image: url("../img/california.jpg");
@@ -297,6 +364,23 @@ a {
     margin-bottom: 10px;
 }
 
+.california {
+    width: 100%;
+    height: 100%;
+    background-color: black;
+    opacity: 0;
+    color: white;
+    font-family: "Cormorant";
+    font-size: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.california:hover {
+    opacity: .7;
+}
+
 .pictures6 {
     width: 44%;
     background-image: url("../img/boeuflegume.jpg");
@@ -305,6 +389,23 @@ a {
     background-position: left;
     margin-bottom: 10px;
     margin-right: 40px;
+}
+
+.kobe {
+    width: 100%;
+    height: 100%;
+    background-color: black;
+    opacity: 0;
+    color: white;
+    font-family: "Cormorant";
+    font-size: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.kobe:hover {
+    opacity: .7;
 }
 
 /* bloc 3 */
@@ -324,6 +425,23 @@ a {
     margin-left: 40px;
 }
 
+.duck {
+    width: 100%;
+    height: 100%;
+    background-color: black;
+    opacity: 0;
+    color: white;
+    font-family: "Cormorant";
+    font-size: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.duck:hover {
+    opacity: .7;
+}
+
 .pictures8 {
     width: 45%;
     background-image: url("../img/canardsauter.jpg");
@@ -334,6 +452,23 @@ a {
     margin-bottom: 10px;
 }
 
+.pig {
+    width: 100%;
+    height: 100%;
+    background-color: black;
+    opacity: 0;
+    color: white;
+    font-family: "Cormorant";
+    font-size: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.pig:hover {
+    opacity: .7;
+}
+
 .pictures9 {
     width: 25%;
     background-image: url("../img/nouillesaute.jpg");
@@ -342,6 +477,23 @@ a {
     background-position: right 50%;
     margin-bottom: 10px;
     margin-right: 40px;
+}
+
+.noodle {
+    width: 100%;
+    height: 100%;
+    background-color: black;
+    opacity: 0;
+    color: white;
+    font-family: "Cormorant";
+    font-size: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.noodle:hover {
+    opacity: .7;
 }
 
 /* boutton */
