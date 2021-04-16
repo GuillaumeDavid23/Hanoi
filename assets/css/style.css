@@ -235,12 +235,9 @@ a {
 
 .soldpict {
     display: flex;
-    border-style: solid;
-    border-width: medium;
 }
-
-.logoreduc {
-    width: 15%;
+.logoreduc2{
+    width: 5%;
 }
 
 /* FIN a propos */
