@@ -30,40 +30,98 @@ h2 {
 
 h1 {
     text-align: center;
-    font-size: 42px;
-}
-
-.homeContainer {
-    display: flex;
-    flex-direction: column;
-    width: 100%;
+    font-size: 130px;
+    color: #E2C044;
+    text-shadow: 2px 0 0 black, 2px 2px 0 black, 0 2px 0 black, -2px 2px 0 black, -2px 0 0 black, -2px -2px 0 black, 0 -2px 0 black, 2px -2px 0 black;
     
 }
 
-.block1 {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    height: 10%;
-    width: 100%;
-    background: #e2c044;
+a {
+    text-decoration: none;
+    color: black;
 }
 
-.navbar {
+
+/* MOUSE OVER CLICK */
+
+
+
+
+
+
+/* BLOCK1 */
+
+
+.block1 {
     display: flex;
-    justify-content: center;
-    align-items: center;
+    position: fixed;
+    height: 70px;
     width: 100%;
+    background: RGB(226, 192, 68, 0.8);
 }
+/* BLOCK2 */
 
 .block2 {
     display: flex;
     align-items: center;
     justify-content: center;
     height: 90%;
-    background: url(../img/photo-restaurant.jpeg);
+    background: url(../img/Love-that-design-Mama-Pho-Restaurant-11.webp);
+    background-size: 100%;
+    background-position: 50%;
+}
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    height: 70px; 
+    font-size: 24px;
+    
+}
+
+.about {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 70px;
+    width: 20%;
+}
+
+.menu {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 70px;
+    width: 20%;
+}
+
+.logo {
+    height: 120px;
+    width: 20%;
+    text-align: center;
+}   
+
+.imagelogo {
+    width: 32%;
+}
+
+.contact {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 70px;
+    width: 20%;
+}
+
+.access {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 70px;
+    width: 20%;
 }
 /* FIN partie accueil */
+
 
 /* DEBUT a propos */
 #aboutContainer {
