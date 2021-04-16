@@ -36,12 +36,6 @@ h1 {
 
 }
 
-a {
-    text-decoration: none;
-    color: black;
-}
-
-
 /* MOUSE OVER CLICK */
 
 
@@ -49,10 +43,17 @@ a {
     text-decoration: none;
     color: black;
 }
-
-a:hover {
-    background-color:RGB(255, 224, 102);
-    opacity: 2;
+.about:hover{
+    background-color: rgba(226, 192, 68, 1);
+}
+.menu:hover{
+    background-color: rgba(226, 192, 68, 1);
+}
+.contact:hover{
+    background-color: rgba(226, 192, 68, 1);
+}
+.access:hover{
+    background-color: rgba(226, 192, 68, 1);
 }
 
 
@@ -63,7 +64,20 @@ a:hover {
     position: fixed;
     height: 70px;
     width: 100%;
-    background: RGB(226, 192, 68, 0.4);
+    background: rgba(226, 192, 68, 0.8);
+}
+
+/* BLOCK2 */
+
+.block2 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 90%;
+    background: url(../img/image_background.webp);
+    background-size: cover;
+    background-position: 50%;
+
 }
 
 /* BLOCK2 */
@@ -95,6 +109,7 @@ a:hover {
     width: 20%;
 }
 
+
 .menu {
     display: flex;
     align-items: center;
@@ -107,6 +122,7 @@ a:hover {
     display: flex;
     height: 120px;
     width: 20%;
+    text-align: center;
     justify-content:center;
     align-items: center;
 }
