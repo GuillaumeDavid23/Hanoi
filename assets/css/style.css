@@ -128,5 +128,7 @@ a:hover {
     align-items: center;
     justify-content: center;
     height: 90%;
-    background: url(../img/photo-restaurant.jpeg);
+    background: url(../img/Love-that-design-Mama-Pho-Restaurant-11.webp);
+    background-size: cover;
+    background-position: 50%;
 }
