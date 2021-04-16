@@ -33,7 +33,7 @@ h1 {
     font-size: 130px;
     color: #E2C044;
     text-shadow: 2px 0 0 black, 2px 2px 0 black, 0 2px 0 black, -2px 2px 0 black, -2px 0 0 black, -2px -2px 0 black, 0 -2px 0 black, 2px -2px 0 black;
-    
+
 }
 
 a {
@@ -59,6 +59,7 @@ a {
     width: 100%;
     background: RGB(226, 192, 68, 0.8);
 }
+
 /* BLOCK2 */
 
 .block2 {
@@ -70,13 +71,14 @@ a {
     background-size: 100%;
     background-position: 50%;
 }
+
 .navbar {
     display: flex;
     justify-content: space-between;
     width: 100%;
-    height: 70px; 
+    height: 70px;
     font-size: 24px;
-    
+
 }
 
 .about {
@@ -99,7 +101,7 @@ a {
     height: 120px;
     width: 20%;
     text-align: center;
-}   
+}
 
 .imagelogo {
     width: 32%;
@@ -120,6 +122,7 @@ a {
     height: 70px;
     width: 20%;
 }
+
 /* FIN partie accueil */
 
 
@@ -128,8 +131,9 @@ a {
     height: 100vh;
     width: 100vw;
 }
+
 /* titre à propos et texte de présentation */
-.aboutPresentation{
+.aboutPresentation {
     height: 50%;
     width: 100%;
     background-color: #D3D0CB;
@@ -141,8 +145,9 @@ a {
     background-size: cover;
     background-position: left;
 }
+
 /* titre à propos */
-.aboutTab{
+.aboutTab {
     height: 100px;
     width: 400px;
     background-color: #E2C044;
@@ -161,7 +166,7 @@ a {
     margin-right: auto;
     margin-left: 600px;
     text-align: justify;
-    
+
 }
 
 /* évènements */
@@ -180,7 +185,7 @@ a {
 }
 
 /* description des évènements */
-.eventsDescription{
+.eventsDescription {
     width: 60%;
     font-family: "Cormorant";
     font-size: 25px;
@@ -188,13 +193,14 @@ a {
     margin-left: auto;
     text-align: justify;
 }
-.soldpict{
+
+.soldpict {
     display: flex;
     border-style: solid;
     border-width: medium;
 }
 
-.logoreduc{
+.logoreduc {
     width: 15%;
 }
 
@@ -237,6 +243,7 @@ a {
     display: flex;
     flex-direction: row;
     height: 260px;
+    margin-top: 20px;
 }
 
 .pictures1 {
@@ -498,27 +505,35 @@ a {
 
 /* boutton */
 .boutton {
-    text-align: center;
     height: 50px;
-  }
-  
-  .menuboutton {
-   height: 50px;
-   width: 20%;
-   border-radius: 3px;
-   background-color: #E2C044;
-   font-family: "Cormorant";
-   font-size: 35px;
-   margin-top: 10px;
-  }
-  
-  .menuboutton:hover {
-      background-color: #C29F1E;
-  }
-  
-  /* fin food container */
+}
 
+.boutton form {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.menuboutton {
+    height: 50px;
+    width: 20%;
+    border-radius: 20px;
+    background-color: #E2C044;
+    font-family: "Cormorant";
+    font-size: 35px;
+    margin-top: 10px;
+    font-weight: bolder;
+}
+
+
+.menuboutton:hover {
+    background-color: #C29F1E;
+}
+
+/* fin food container */
 /* FIN présentation des plats */
+
 
 /* DEBUT PARTIE CONTACT */
 /* Conteneur principal */
@@ -552,7 +567,8 @@ a {
     align-items: center;
     margin-top: 50px;
 }
-.field{
+
+.field {
     font-size: 20px;
     display: flex;
     flex-direction: column;
@@ -562,7 +578,8 @@ a {
     border: 2px solid #1E2019;
     border-radius: 10px;
 }
-form{
+
+form {
     color: #1E2019;
     font-size: 20px;
     width: 800px;
@@ -571,31 +588,34 @@ form{
     justify-content: center;
 }
 
-form label{
+form label {
     color: #1E2019;
     font-size: 25px;
     font-weight: 600;
     margin-top: 5px;
 }
 
-#message{
+
+#message {
     width: 100%;
     height: 150px;
     resize: none;
     font-size: 20px;
 }
-#mail{
-    width: 50%;
-    height: 30px;
-    font-size: 20px;
-}
-#name{
+
+#mail {
     width: 50%;
     height: 30px;
     font-size: 20px;
 }
 
-.contactButton{
+#name {
+    width: 50%;
+    height: 30px;
+    font-size: 20px;
+}
+
+.contactButton {
     margin-top: 10px;
     height: 50px;
     width: 100%;
@@ -605,14 +625,14 @@ form label{
     font-weight: 800;
     font-size: 22px;
     border-radius: 10px;
-    
+
 }
 
-.contactButton:hover{
+.contactButton:hover {
     background-color: #C29F1E;
 }
 
-.social{
+.social {
     border: 2px solid #1E2019;
     width: 300px;
     display: flex;
@@ -621,7 +641,7 @@ form label{
     border-radius: 10px;
 }
 
-.logoSocial{
+.logoSocial {
     width: 70px;
     margin: 20px;
 }
@@ -630,13 +650,13 @@ form label{
 
 
 /* DEBUT PARTIE ACCES */
-#accessContainer{
+#accessContainer {
     height: 100vh;
     margin-top: 100px;
 }
 
-.accessTitle{
-    
+.accessTitle {
+
     display: flex;
     align-items: center;
     justify-content: center;
@@ -647,13 +667,13 @@ form label{
     background-color: #E2C044;
 }
 
-.accessCenter{
+.accessCenter {
     height: 20%;
     display: flex;
     justify-content: center;
 }
 
-.accessContenu{
+.accessContenu {
     width: 100%;
     height: 80%;
     display: flex;
@@ -661,63 +681,71 @@ form label{
     margin-top: 50px;
 }
 
-.up{
+.up {
     display: flex;
 }
-.up ul{
+
+.up ul {
     word-spacing: 5px;
     line-height: 30px;
 }
-.up h3{
+
+.up h3 {
     text-align: center;
 }
 
-.agenda{
+.agenda {
     display: flex;
 }
-.listTime{
+
+.listTime {
     display: flex;
     flex-direction: column;
     height: 50%;
 }
-.internalTime{
+
+.internalTime {
     display: flex;
 }
 
-.dayTime{
+.dayTime {
     padding-right: 40px;
 }
-.nightTime{
+
+.nightTime {
     border-left: 3px solid black;
     padding-left: 20px;
 }
-.time{
+
+.time {
     font-size: 22px;
     list-style: none;
 }
-.timeTitle{
+
+.timeTitle {
     font-size: 25px;
 }
-.adress{
+
+.adress {
     margin-left: 50px;
     text-align: center;
 }
 
-.adress h3{
+.adress h3 {
     font-size: 25px;
 }
 
-.adress p{
+.adress p {
     font-size: 25px;
 }
 
-.adress button{
+.adress button {
     border-radius: 10px;
     height: 40px;
     width: 100px;
     background-color: #E2C044;
 }
 
-.adress button:hover{
+.adress button:hover {
     background-color: #C29F1E;
 }
