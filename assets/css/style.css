@@ -24,11 +24,18 @@ body {
     height: 100vh;
 }
 
-h2 {
+.subtitle {
+    margin: 0;
+    text-align: center;
+    font-family: "Cormorant";
     font-size: 36px;
+    color: #E2C044;
+    text-shadow: 2px 0 0 black, 2px 2px 0 black, 0 2px 0 black, -2px 2px 0 black, -2px 0 0 black, -2px -2px 0 black, 0 -2px 0 black, 2px -2px 0 black;
 }
 
 h1 {
+    border-bottom: 3px solid #bdbbb8;
+    margin: 0;
     text-align: center;
     font-size: 130px;
     color: #E2C044;
