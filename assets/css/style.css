@@ -38,6 +38,9 @@ header{
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    background-image: url("../img/photo du chef.webp");
+    background-size: cover;
+    background-position: left;
 }
 /* titre à propos */
 .aboutTab{
@@ -56,10 +59,11 @@ header{
     font-family: "Cormorant";
     font-size: 25px;
     margin-right: auto;
-    margin-left: auto;
+    margin-left: 600px;
     text-align: justify;
     
 }
+
 /* évènements */
 .aboutEvents{
     height: 400px;
@@ -82,9 +86,15 @@ header{
     margin-left: auto;
     text-align: justify;
 }
+.soldpict{
+    display: flex;
+    border-style: solid;
+    border-width: medium;
+}
 .logoreduc{
     background-color:#E2C044 ;
     width: 15%;
+    
 }
 #foodContainer{
     height: 100vh;
