@@ -39,23 +39,22 @@ h1 {
     font-size: 42px;
 }
 
+
+/* MOUSE OVER CLICK */
+
+
 a {
     text-decoration: none;
     color: black;
 }
 
-
-/* MOUSE OVER CLICK */
-
-
 a:hover {
-    color: red;
-  }
-
+    background-color:RGB(255, 224, 102);
+    opacity: 0.5;
+}
 
 
 /* BLOCK1 */
-
 
 .block1 {
     display: flex;
@@ -100,7 +99,7 @@ a:hover {
 
 .imagelogo {
     height: 120px;
-    width: 100%;
+    width: 40%;
 
 }
 
@@ -128,7 +127,7 @@ a:hover {
     align-items: center;
     justify-content: center;
     height: 90%;
-    background: url(../img/Love-that-design-Mama-Pho-Restaurant-11.webp);
+    background: url(../img/image_background.webp);
     background-size: cover;
     background-position: 50%;
 }
