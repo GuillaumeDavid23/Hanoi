@@ -42,18 +42,24 @@ h1 {
 a {
     text-decoration: none;
     color: black;
+    font-weight: bold;
+
 }
 .about:hover{
-    background-color: rgba(226, 192, 68, 1);
+    background-color: rgb(197, 163, 38, 1);
+    transition: 1s;
 }
 .menu:hover{
-    background-color: rgba(226, 192, 68, 1);
+    background-color: rgb(197, 163, 38, 1);
+    transition: 1s;
 }
 .contact:hover{
-    background-color: rgba(226, 192, 68, 1);
+    background-color: rgb(197, 163, 38, 1);
+    transition: 1s;
 }
 .access:hover{
-    background-color: rgba(226, 192, 68, 1);
+    background-color: rgb(197, 163, 38, 1);
+    transition: 1s;
 }
 
 
@@ -64,7 +70,7 @@ a {
     position: fixed;
     height: 70px;
     width: 100%;
-    background: rgba(226, 192, 68, 0.8);
+    background: rgba(226, 192, 68, 0.75);
 }
 
 /* BLOCK2 */
@@ -294,10 +300,12 @@ a {
     display: flex;
     align-items: center;
     justify-content: center;
+    transition: 0.5s;
 }
 
 .makioignon:hover {
     opacity: .7;
+    transition: 0.5s;
 }
 
 .pictures2 {
@@ -321,10 +329,12 @@ a {
     display: flex;
     align-items: center;
     justify-content: center;
+    transition: 0.5s;
 }
 
 .boulecoco:hover {
     opacity: .7;
+    transition: 0.5s;
 }
 
 .pictures3 {
@@ -347,10 +357,12 @@ a {
     display: flex;
     align-items: center;
     justify-content: center;
+    transition: 0.5s;
 }
 
 .curryasian:hover {
     opacity: .7;
+    transition: 0.5s;
 }
 
 /* bloc 2 */
@@ -381,10 +393,12 @@ a {
     display: flex;
     align-items: center;
     justify-content: center;
+    transition: 0.5s;
 }
 
 .rice:hover {
     opacity: .7;
+    transition: 0.5s;
 }
 
 .pictures5 {
@@ -408,10 +422,12 @@ a {
     display: flex;
     align-items: center;
     justify-content: center;
+    transition: 0.5s;
 }
 
 .california:hover {
     opacity: .7;
+    transition: 0.5s;
 }
 
 .pictures6 {
@@ -422,6 +438,7 @@ a {
     background-position: left;
     margin-bottom: 10px;
     margin-right: 40px;
+    transition: 0.5s;
 }
 
 .kobe {
@@ -435,10 +452,12 @@ a {
     display: flex;
     align-items: center;
     justify-content: center;
+    transition: 0.5s;
 }
 
 .kobe:hover {
     opacity: .7;
+    transition: 0.5s;
 }
 
 /* bloc 3 */
@@ -469,10 +488,12 @@ a {
     display: flex;
     align-items: center;
     justify-content: center;
+    transition: 0.5s;
 }
 
 .duck:hover {
     opacity: .7;
+    transition: 0.5s;
 }
 
 .pictures8 {
@@ -496,10 +517,12 @@ a {
     display: flex;
     align-items: center;
     justify-content: center;
+    transition: 0.5s;
 }
 
 .pig:hover {
     opacity: .7;
+    transition: 0.5s;
 }
 
 .pictures9 {
@@ -523,10 +546,12 @@ a {
     display: flex;
     align-items: center;
     justify-content: center;
+    transition: 0.5s;
 }
 
 .noodle:hover {
     opacity: .7;
+    transition: 0.5s;
 }
 
 /* boutton */
@@ -550,11 +575,16 @@ a {
     font-size: 35px;
     margin-top: 10px;
     font-weight: bolder;
+    transform: scale(1);
+    transition: 1s;
 }
 
 
 .menuboutton:hover {
     background-color: #C29F1E;
+    transform: scale(1.2);
+    transition: 1s;
+    cursor: pointer;
 }
 
 /* fin food container */
@@ -586,6 +616,7 @@ a {
 }
 
 .contactContenu {
+    
     width: 100%;
     height: 80%;
     display: flex;
@@ -595,6 +626,8 @@ a {
 }
 
 .field {
+    background-color: #bdbbb8;
+    box-shadow: 10px 10px 30px black;
     font-size: 20px;
     display: flex;
     flex-direction: column;
@@ -656,9 +689,12 @@ form label {
 
 .contactButton:hover {
     background-color: #C29F1E;
+    cursor: pointer;
 }
 
 .social {
+    background-color: #bdbbb8;
+    box-shadow: 10px 10px 30px black;
     border: 2px solid #1E2019;
     width: 300px;
     display: flex;
@@ -679,7 +715,7 @@ form label {
 #accessContainer {
     height: 100vh;
     margin-top: 100px;
-    position: relative;
+
 }
 
 .accessTitle {
@@ -777,6 +813,9 @@ form label {
 }
 
 .adressButton{
+    font-family: "Cormorant";
+    font-weight: bold;
+    font-size: 17px;
     border-radius: 10px;
     height: 40px;
     width: 100px;
@@ -785,6 +824,7 @@ form label {
 
 .adressButton:hover{
     background-color: #C29F1E;
+    cursor: pointer;
 }
 
 footer{
