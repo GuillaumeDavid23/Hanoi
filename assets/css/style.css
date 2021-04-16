@@ -164,6 +164,7 @@ h1 {
     height: 100px;
     width: 400px;
     background-color: #E2C044;
+    margin-bottom: 50px;
 }
 
 #foodContainer h2 {
@@ -311,7 +312,7 @@ h1 {
 /* DEBUT PARTIE CONTACT */
 /* Conteneur principal */
 #contactContainer {
-    margin-top: 50px;
+    margin-top: 300px;
     height: 100vh;
 }
 
