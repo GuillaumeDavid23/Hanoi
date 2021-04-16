@@ -120,6 +120,7 @@ a {
     justify-content: center;
     height: 70px;
     width: 20%;
+    transition: 1s;
 }
 
 
@@ -129,6 +130,7 @@ a {
     justify-content: center;
     height: 70px;
     width: 20%;
+    transition: 1s;
 }
 
 .logo {
@@ -152,6 +154,7 @@ a {
     justify-content: center;
     height: 70px;
     width: 20%;
+    transition: 1s;
 }
 
 .access {
@@ -160,6 +163,7 @@ a {
     justify-content: center;
     height: 70px;
     width: 20%;
+    transition: 1s;
 }
 
 /* FIN partie accueil */
