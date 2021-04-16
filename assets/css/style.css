@@ -14,19 +14,13 @@ body {
     padding: 0;
     height: 100vh;
     width: 100%;
-    font-family: "Cormorant";
     background-color: #D3D0CB;
+    font-family: "Cormorant";
 }
+
+/* Partie accueil */
 
 #homeContainer {
-    height: 100vh;
-}
-
-#aboutContainer {
-    height: 100vh;
-}
-
-#foodContainer {
     height: 100vh;
 }
 
@@ -36,7 +30,15 @@ h2 {
 
 h1 {
     text-align: center;
-    font-size: 42px;
+    font-size: 130px;
+    color: #E2C044;
+    text-shadow: 2px 0 0 black, 2px 2px 0 black, 0 2px 0 black, -2px 2px 0 black, -2px 0 0 black, -2px -2px 0 black, 0 -2px 0 black, 2px -2px 0 black;
+
+}
+
+a {
+    text-decoration: none;
+    color: black;
 }
 
 
@@ -47,10 +49,17 @@ a {
     text-decoration: none;
     color: black;
 }
-
-a:hover {
-    background-color:RGB(255, 224, 102);
-    opacity: 2;
+.about:hover{
+    background-color: rgba(226, 192, 68, 1);
+}
+.menu:hover{
+    background-color: rgba(226, 192, 68, 1);
+}
+.contact:hover{
+    background-color: rgba(226, 192, 68, 1);
+}
+.access:hover{
+    background-color: rgba(226, 192, 68, 1);
 }
 
 
@@ -61,16 +70,29 @@ a:hover {
     position: fixed;
     height: 70px;
     width: 100%;
-    background: RGB(226, 192, 68, 0.4);
+    background: rgba(226, 192, 68, 0.8);
+}
+
+/* BLOCK2 */
+
+.block2 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 90%;
+    background: url(../img/image_background.webp);
+    background-size: cover;
+    background-position: 50%;
+
 }
 
 .navbar {
     display: flex;
     justify-content: space-between;
     width: 100%;
-    height: 70px; 
+    height: 70px;
     font-size: 24px;
-    
+
 }
 
 .about {
@@ -80,6 +102,7 @@ a:hover {
     height: 70px;
     width: 20%;
 }
+
 
 .menu {
     display: flex;
@@ -93,6 +116,7 @@ a:hover {
     display: flex;
     height: 120px;
     width: 20%;
+    text-align: center;
     justify-content:center;
     align-items: center;
 }
@@ -119,15 +143,658 @@ a:hover {
     width: 20%;
 }
 
-/* BLOCK2 */
+/* FIN partie accueil */
 
 
-.block2 {
+/* DEBUT a propos */
+#aboutContainer {
+    height: 100vh;
+    width: 100vw;
+}
+
+/* titre à propos et texte de présentation */
+.aboutPresentation {
+    height: 50%;
+    width: 100%;
+    background-color: #D3D0CB;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-image: url("../img/photo du chef.webp");
+    background-size: cover;
+    background-position: left;
+}
+
+/* titre à propos */
+.aboutTab {
+    height: 100px;
+    width: 400px;
+    background-color: #E2C044;
+    font-family: "Yoruka";
+    font-size: 25px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+/* texte de présentation */
+.aboutText {
+    width: 60%;
+    font-family: "Cormorant";
+    font-size: 25px;
+    margin-right: auto;
+    margin-left: 600px;
+    text-align: justify;
+
+}
+
+/* évènements */
+.aboutEvents {
+    height: 400px;
+    width: 100%;
+    background-color: #E2C044;
+}
+
+/* titre évènements */
+.eventsTitle {
+    font-family: "Yoruka";
+    font-size: 25px;
+    text-align: center;
+    padding-top: 20px;
+}
+
+/* description des évènements */
+.eventsDescription {
+    width: 60%;
+    font-family: "Cormorant";
+    font-size: 25px;
+    margin-right: auto;
+    margin-left: auto;
+    text-align: justify;
+}
+
+.soldpict {
+    display: flex;
+    border-style: solid;
+    border-width: medium;
+}
+
+.logoreduc {
+    width: 15%;
+}
+
+/* FIN a propos */
+
+/* DEBUT Présentation des plats */
+#foodContainer {
+
+    margin-top: 100px;
+    height: 100vh;
+    width: 100vw;
+}
+
+
+/* foodcontainer */
+
+.centerTitle {
+    display: flex;
+    justify-content: center;
+}
+
+.foodTitle {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100px;
+    width: 400px;
+    background-color: #E2C044;
+    margin-bottom: 50px;
+}
+
+#foodContainer h2 {
+    font-family: "Yoruka";
+    font-size: 35px;
+    text-align: center;
+}
+
+/* bloc 1 */
+.blocpictures1 {
+    display: flex;
+    flex-direction: row;
+    height: 260px;
+    margin-top: 20px;
+}
+
+.pictures1 {
+    width: 33%;
+    background-image: url("../img/makioignon.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center bottom;
+    margin-right: 10px;
+    margin-bottom: 10px;
+    margin-left: 40px;
+}
+
+.makioignon {
+    width: 100%;
+    height: 100%;
+    background-color: black;
+    opacity: 0;
+    color: white;
+    font-family: "Cormorant";
+    font-size: 40px;
     display: flex;
     align-items: center;
     justify-content: center;
-    height: 90%;
-    background: url(../img/image_background.webp);
+}
+
+.makioignon:hover {
+    opacity: .7;
+}
+
+.pictures2 {
+    width: 40%;
+    background-image: url("../img/boulecoco.jpg");
+    background-repeat: no-repeat;
     background-size: cover;
-    background-position: 50%;
+    background-position: center;
+    margin-right: 10px;
+    margin-bottom: 10px;
+}
+
+.boulecoco {
+    width: 100%;
+    height: 100%;
+    background-color: black;
+    opacity: 0;
+    color: white;
+    font-family: "Cormorant";
+    font-size: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.boulecoco:hover {
+    opacity: .7;
+}
+
+.pictures3 {
+    width: 27%;
+    background-image: url("../img/curryasiat.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin-bottom: 10px;
+    margin-right: 40px;
+}
+
+.curryasian {
+    width: 100%;
+    height: 100%;
+    background-color: black;
+    opacity: 0;
+    color: white;
+    font-family: "Cormorant";
+    font-size: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.curryasian:hover {
+    opacity: .7;
+}
+
+/* bloc 2 */
+.blocpictures2 {
+    display: flex;
+    height: 260px;
+}
+
+.pictures4 {
+    width: 20%;
+    background-image: url("../img/rizsauter.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    margin-right: 10px;
+    margin-bottom: 10px;
+    margin-left: 40px;
+}
+
+.rice {
+    width: 100%;
+    height: 100%;
+    background-color: black;
+    opacity: 0;
+    color: white;
+    font-family: "Cormorant";
+    font-size: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.rice:hover {
+    opacity: .7;
+}
+
+.pictures5 {
+    width: 36%;
+    background-image: url("../img/california.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    margin-right: 10px;
+    margin-bottom: 10px;
+}
+
+.california {
+    width: 100%;
+    height: 100%;
+    background-color: black;
+    opacity: 0;
+    color: white;
+    font-family: "Cormorant";
+    font-size: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.california:hover {
+    opacity: .7;
+}
+
+.pictures6 {
+    width: 44%;
+    background-image: url("../img/boeuflegume.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: left;
+    margin-bottom: 10px;
+    margin-right: 40px;
+}
+
+.kobe {
+    width: 100%;
+    height: 100%;
+    background-color: black;
+    opacity: 0;
+    color: white;
+    font-family: "Cormorant";
+    font-size: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.kobe:hover {
+    opacity: .7;
+}
+
+/* bloc 3 */
+.blocpictures3 {
+    display: flex;
+    height: 260px;
+}
+
+.pictures7 {
+    width: 30%;
+    background-image: url("../img/rizthai.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    margin-right: 10px;
+    margin-bottom: 10px;
+    margin-left: 40px;
+}
+
+.duck {
+    width: 100%;
+    height: 100%;
+    background-color: black;
+    opacity: 0;
+    color: white;
+    font-family: "Cormorant";
+    font-size: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.duck:hover {
+    opacity: .7;
+}
+
+.pictures8 {
+    width: 45%;
+    background-image: url("../img/canardsauter.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    margin-right: 10px;
+    margin-bottom: 10px;
+}
+
+.pig {
+    width: 100%;
+    height: 100%;
+    background-color: black;
+    opacity: 0;
+    color: white;
+    font-family: "Cormorant";
+    font-size: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.pig:hover {
+    opacity: .7;
+}
+
+.pictures9 {
+    width: 25%;
+    background-image: url("../img/nouillesaute.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: right 50%;
+    margin-bottom: 10px;
+    margin-right: 40px;
+}
+
+.noodle {
+    width: 100%;
+    height: 100%;
+    background-color: black;
+    opacity: 0;
+    color: white;
+    font-family: "Cormorant";
+    font-size: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.noodle:hover {
+    opacity: .7;
+}
+
+/* boutton */
+.boutton {
+    height: 50px;
+}
+
+.boutton form {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.menuboutton {
+    height: 50px;
+    width: 20%;
+    border-radius: 20px;
+    background-color: #E2C044;
+    font-family: "Cormorant";
+    font-size: 35px;
+    margin-top: 10px;
+    font-weight: bolder;
+}
+
+
+.menuboutton:hover {
+    background-color: #C29F1E;
+}
+
+/* fin food container */
+/* FIN présentation des plats */
+
+
+/* DEBUT PARTIE CONTACT */
+/* Conteneur principal */
+#contactContainer {
+    margin-top: 300px;
+    height: 100vh;
+}
+
+.contactTitle {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family: "Yoruka";
+    font-size: 25px;
+    width: 400px;
+    height: 100px;
+    background-color: #E2C044;
+}
+
+.centerContact {
+    display: flex;
+    justify-content: center;
+
+}
+
+.contactContenu {
+    width: 100%;
+    height: 80%;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    margin-top: 50px;
+}
+
+.field {
+    font-size: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin: 0;
+    padding: 20px;
+    border: 2px solid #1E2019;
+    border-radius: 10px;
+}
+
+form {
+    color: #1E2019;
+    font-size: 20px;
+    width: 800px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+form label {
+    color: #1E2019;
+    font-size: 25px;
+    font-weight: 600;
+    margin-top: 5px;
+}
+
+
+#message {
+    width: 100%;
+    height: 150px;
+    resize: none;
+    font-size: 20px;
+}
+
+#mail {
+    width: 50%;
+    height: 30px;
+    font-size: 20px;
+}
+
+#name {
+    width: 50%;
+    height: 30px;
+    font-size: 20px;
+}
+
+.contactButton {
+    margin-top: 10px;
+    height: 50px;
+    width: 100%;
+    align-self: center;
+    background-color: #E2C044;
+    font-family: "Cormorant";
+    font-weight: 800;
+    font-size: 22px;
+    border-radius: 10px;
+
+}
+
+.contactButton:hover {
+    background-color: #C29F1E;
+}
+
+.social {
+    border: 2px solid #1E2019;
+    width: 300px;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    border-radius: 10px;
+}
+
+.logoSocial {
+    width: 70px;
+    margin: 20px;
+}
+
+/* FIN PARTIE CONTACT */
+
+
+/* DEBUT PARTIE ACCES */
+#accessContainer {
+    height: 100vh;
+    margin-top: 100px;
+    position: relative;
+}
+
+.accessTitle {
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family: "Yoruka";
+    font-size: 25px;
+    width: 400px;
+    height: 100px;
+    background-color: #E2C044;
+}
+
+.accessCenter {
+    height: 20%;
+    display: flex;
+    justify-content: center;
+}
+
+.accessContenu {
+    width: 100%;
+    height: 70%;
+    display: flex;
+    justify-content: center;
+    margin-top: 50px;
+}
+
+.up {
+    display: flex;
+}
+
+.up ul {
+    word-spacing: 5px;
+    line-height: 30px;
+}
+
+.up h3 {
+    text-align: center;
+}
+
+.agenda {
+    display: flex;
+}
+
+.listTime {
+    display: flex;
+    flex-direction: column;
+    height: 50%;
+}
+
+.internalTime {
+    display: flex;
+}
+
+.dayTime {
+    padding-right: 40px;
+}
+
+.nightTime {
+    border-left: 3px solid black;
+    padding-left: 20px;
+}
+
+.time {
+    font-size: 22px;
+    list-style: none;
+}
+
+.timeTitle {
+    font-size: 25px;
+}
+
+.adress {
+    margin-left: 50px;
+    text-align: center;
+    margin-right: 50px;
+}
+.adress div{
+    text-align: center;
+}
+.adress h3{
+    font-size: 25px;
+}
+
+.adress p {
+    font-size: 25px;
+}
+.adress form{
+    width: 100px;
+    height: 40px;
+    margin: auto;
+    padding: 0;
+    text-align: center;
+}
+
+.adressButton{
+    border-radius: 10px;
+    height: 40px;
+    width: 100px;
+    background-color: #E2C044;
+}
+
+.adressButton:hover{
+    background-color: #C29F1E;
+}
+
+footer{
+    display: flex;
+    width: 100%;
+    height: 10%;
+    background-color: #E2C044;
+    justify-content: space-around;
+    align-items: center;
+}
+footer p{
+    font-size: 20px;
+}
+
+footer a{
+    font-size: 18px;
+    color: black;
+
 }
