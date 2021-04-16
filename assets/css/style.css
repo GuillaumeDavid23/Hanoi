@@ -668,7 +668,7 @@ form label {
     height: 150px;
     resize: none;
     font-size: 20px;
-    background-color: #1E2019;
+    background-color: whitesmoke;
     color: #D3D0CB;
     border-radius: 10px;
 }
@@ -677,7 +677,7 @@ form label {
     width: 50%;
     height: 30px;
     font-size: 20px;
-    background-color: #1E2019;
+    background-color: whitesmoke;
     color: #D3D0CB;
     border-radius: 10px;
 }
@@ -686,7 +686,7 @@ form label {
     width: 50%;
     height: 30px;
     font-size: 20px;
-    background-color: #1E2019;
+    background-color: whitesmoke;
     color: #D3D0CB;
     border-radius: 10px;
 }
