@@ -130,6 +130,7 @@ form label{
 #accessContainer{
     height: 100vh;
     margin-top: 100px;
+    position: relative;
 }
 
 .accessTitle{
@@ -152,7 +153,7 @@ form label{
 
 .accessContenu{
     width: 100%;
-    height: 80%;
+    height: 70%;
     display: flex;
     justify-content: center;
     margin-top: 50px;
@@ -198,8 +199,11 @@ form label{
 .adress{
     margin-left: 50px;
     text-align: center;
+    margin-right: 50px;
 }
-
+.adress div{
+    text-align: center;
+}
 .adress h3{
     font-size: 25px;
 }
@@ -207,14 +211,38 @@ form label{
 .adress p{
     font-size: 25px;
 }
+.adress form{
+    width: 100px;
+    height: 40px;
+    margin: auto;
+    padding: 0;
+    text-align: center;
+}
 
-.adress button{
+.adressButton{
     border-radius: 10px;
     height: 40px;
     width: 100px;
     background-color: #E2C044;
 }
 
-.adress button:hover{
+.adressButton:hover{
     background-color: #C29F1E;
+}
+
+footer{
+    display: flex;
+    width: 100%;
+    height: 10%;
+    background-color: #E2C044;
+    justify-content: space-around;
+    align-items: center;
+}
+footer p{
+    font-size: 20px;
+}
+
+footer a{
+    font-size: 18px;
+    color: black;
 }
