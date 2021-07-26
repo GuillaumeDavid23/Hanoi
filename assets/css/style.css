@@ -53,19 +53,23 @@ a {
     font-weight: bold;
 
 }
-.about:hover{
+
+.about:hover {
     background-color: rgb(197, 163, 38, 1);
     transition: 1s;
 }
-.menu:hover{
+
+.menu:hover {
     background-color: rgb(197, 163, 38, 1);
     transition: 1s;
 }
-.contact:hover{
+
+.contact:hover {
     background-color: rgb(197, 163, 38, 1);
     transition: 1s;
 }
-.access:hover{
+
+.access:hover {
     background-color: rgb(197, 163, 38, 1);
     transition: 1s;
 }
@@ -140,12 +144,11 @@ a {
     height: 120px;
     width: 20%;
     text-align: center;
-    justify-content:center;
+    justify-content: center;
     align-items: center;
 }
 
 .imagelogo {
-    height: 120px;
     width: 40%;
 
 }
@@ -242,7 +245,8 @@ a {
 .soldpict {
     display: flex;
 }
-.logoreduc2{
+
+.logoreduc2 {
     width: 5%;
 }
 
@@ -626,7 +630,7 @@ a {
 }
 
 .contactContenu {
-    
+
     width: 100%;
     height: 80%;
     display: flex;
@@ -727,7 +731,7 @@ form label {
     margin: 20px;
 }
 
-.tel{
+.tel {
     font-size: 25px;
     padding-bottom: 20px;
 }
@@ -818,17 +822,20 @@ form label {
     text-align: center;
     margin-right: 50px;
 }
-.adress div{
+
+.adress div {
     text-align: center;
 }
-.adress h3{
+
+.adress h3 {
     font-size: 25px;
 }
 
 .adress p {
     font-size: 25px;
 }
-.adress form{
+
+.adress form {
     width: 100px;
     height: 40px;
     margin: auto;
@@ -836,7 +843,7 @@ form label {
     text-align: center;
 }
 
-.adressButton{
+.adressButton {
     font-family: "Cormorant";
     font-weight: bold;
     font-size: 17px;
@@ -846,12 +853,12 @@ form label {
     background-color: #E2C044;
 }
 
-.adressButton:hover{
+.adressButton:hover {
     background-color: #C29F1E;
     cursor: pointer;
 }
 
-footer{
+footer {
     display: flex;
     width: 100%;
     height: 10%;
@@ -859,11 +866,12 @@ footer{
     justify-content: space-around;
     align-items: center;
 }
-footer p{
+
+footer p {
     font-size: 20px;
 }
 
-footer a{
+footer a {
     font-size: 18px;
     color: black;
 }
